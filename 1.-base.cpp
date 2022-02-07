@@ -3,12 +3,10 @@ using namespace std;
 
 // Typedef acorta la forma de definir typos
 // por ejemplo ahora no tenemos que escribir:
-// - long long variable
-// sino mas bien
-// - ll
+// - "long long variable" sino mas bien "ll"
 typedef long long ll;
-typedef vector<int> vi;
-typedef pair<int, int> pi;
+typedef vector<int> vi;  // vector de enteros
+typedef pair<int, int> pi;  // pair de enteros
 
 // Macros
 #define REP(i,a,b) for (int i = a; i <= b; i++)
