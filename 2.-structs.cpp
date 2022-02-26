@@ -1,9 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Las estructuras nos permiten definir un propip
-// tipo de dato el cual podemos usar e acuerdo a
-// lo que definimos
+// Las estructuras nos permiten definir un propio
+// tipo de dato 
 struct P {
     int x, y;
     bool operator<(const P &p) {
@@ -12,7 +11,7 @@ struct P {
     }
 };
 
-bool comp(string a, string b) {
+bool comp (string a, string b) {
     if (a.size() != b.size()) return a.size() < b.size();
     return a < b;
 }
@@ -32,8 +31,8 @@ int main() {
 
     cout << message << endl;
 
-    string str1 = "hello";
-    string str2 = "hello";
+    string str1 = "Hello";
+    string str2 = "Alves";
     cout << comp(str1, str2);
 
     return 42;

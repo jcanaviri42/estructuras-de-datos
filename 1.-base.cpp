@@ -3,7 +3,7 @@ using namespace std;
 
 // Typedef acorta la forma de definir typos
 // por ejemplo ahora no tenemos que escribir:
-// - "long long variable" sino mas bien "ll"
+// - "long long variable" sino mas bien "ll variable"
 typedef long long ll;
 typedef vector<int> vi;  // vector de enteros
 typedef pair<int, int> pi;  // pair de enteros
