@@ -29,13 +29,14 @@ int method1(int array[], int n, int target) {
         if (array[k] > target) b = k - 1;
         else a = k + 1;
     }
+    return -1;
 }
 
 int method2(int array[], int n, int target) {
     // O(log2 n)
     int k = 0;
     
-    for (int b = n/2; b >= 1; b /=2) {
+    for (int b = n/2; b >= 1; b /= 2) {
         while (k+b < n && array[k+b] <= target) k += b;
     }
 
