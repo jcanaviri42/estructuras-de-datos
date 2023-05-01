@@ -187,5 +187,6 @@ void mrgSort(int array[], int start, int end)
 
 void mergeSort(int array[], int n)
 {
+    // O(n log n)
     mrgSort(array, 0, n - 1);
 }
