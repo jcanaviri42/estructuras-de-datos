@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Declarando los metodos a ser implementados
 int method1(int array[], int n, int target);
 int method2(int array[], int n, int target);
 
@@ -24,13 +25,11 @@ int method1(int array[], int n, int target)
     while (a <= b)
     {
         int k = (a + b) / 2;
+        // Si el elemento del medio es le que buscamos
         if (array[k] == target)
-        {
             return k;
-        }
-
         // Esto reduce a la mitad los elementos a buscar
-        if (array[k] > target)
+        else if (array[k] > target)
             b = k - 1;
         else
             a = k + 1;
@@ -51,6 +50,5 @@ int method2(int array[], int n, int target)
 
     if (array[k] == target)
         return k;
-    else
-        return -1;
+    return -1;
 }
