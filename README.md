@@ -4,7 +4,7 @@
 
 #### Para ejecutar
 
-- Contar con un interprete de c++ (MinGW)
+- Contar con un interprete de C++ (MinGW)
 - Ejecutar
 
 ```shell
