@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Las estructuras nos permiten definir un propio
-// tipo de dato
+// Las estructuras nos permiten definir un propio tipo de dato
 struct P
 {
     int x, y;
@@ -39,7 +38,7 @@ int main()
     cout << message << endl;
 
     string str1 = "Hello";
-    string str2 = "Alves";
+    string str2 = "Josue";
     cout << comp(str1, str2);
 
     return 42;

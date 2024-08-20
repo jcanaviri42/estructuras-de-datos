@@ -17,9 +17,11 @@ int main()
     ll a = 123456789;
     ll b = 987654321;
 
+    cout << "Multiplication of long long:" << endl;
     cout << a * b << "\n";
 
-    // Basicamente mi propio for hecho con macros
+    // Basicamente un for hecho con macros
+    cout << "REP(i, 1, 3):" << endl;
     REP(i, 1, 3)
     {
         cout << i << "\n";
