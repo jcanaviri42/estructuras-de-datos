@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
+int main(void)
 {
     vector<int> v;
     v.push_back(3); // [3]

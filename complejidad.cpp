@@ -6,7 +6,7 @@ int straightforwardAlgorithm(int array[], int n);
 int mediumAlgorithm(int array[], int n);
 int eficientAlgorithm(int array[], int n);
 
-int main()
+int main(void)
 {
     int n = 5; // n can be any number
 

@@ -21,7 +21,7 @@ bool comp(string a, string b)
     return a < b;
 }
 
-int main()
+int main(void)
 {
     P point1;
     P point2;

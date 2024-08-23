@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
+int main(void)
 {
     int a = 5, b = 8, maximum;
 

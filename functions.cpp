@@ -25,7 +25,7 @@ int numberOfDigits(int n)
     return log10(n) + 1;
 }
 
-int main()
+int main(void)
 {
     // Functions defined by the language
     cout << "The round of 3 / 2 = " << round(3 / 2) << "\n";
